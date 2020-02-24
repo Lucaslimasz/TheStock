@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+/* Configuração do body */
+body{
+    background-color: #440067;
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+}
+
+
+
+/* configuração da logomarca */
+
+li img{
+    padding: 25px 20px;
+}
+
+/* NavBar */
+ul.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+li.nav{
+    float: left;
+}
+
+li.nav a{
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 30px 40px;
+    text-decoration: none;
+    
+}
+
+li a:hover{
+    transition: 0.3s;
+    background-color: #b6a1c7;
+}
+
+/* Tabela */
+.title{
+    padding-top: 5%;
+    padding-left: 3%;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.search input{
+    margin-left: 45px;
+    margin-top: 20px;
+    padding: 10px 40px;
+    border: none;
+}
+
+ul.titulo-div{
+    list-style-type: none;
+    padding-top: 35px;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.titulo-div li{
+    font-weight: bold;
+    color: white;
+    float: left;
+    margin-left: 60px;
+}
+
+
+/* ITENS LISTADOS */
+ul.itens{
+    list-style-type: none;
+    padding-top: 50px;
+    font-size: 20px;
+    
+
+}
+
+.itens li{
+    float: left;
+    color: black;
+    font-weight: bold;
+    margin-left: 60px;    
+    
+}
+
+.listagem{
+
+    display: float;
+    width: 85%;
+    background-color: white;
+    margin: 55px;
+    
+    
+}
+
+
+
+
+/* Footer */
