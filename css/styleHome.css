@@ -91,17 +91,25 @@ ul.itens{
     float: left;
     color: black;
     font-weight: bold;
-    margin-left: 60px;    
+    margin: -20px 10px 25px 50px;  
+        
+    
     
 }
 
 .listagem{
-
-    display: float;
     width: 85%;
     background-color: white;
-    margin: 55px;
+    margin: 50px;
+    overflow: hidden;
     
+    
+    
+    
+    /* margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  */
     
 }
 
